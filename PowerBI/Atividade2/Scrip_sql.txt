@@ -1,0 +1,14 @@
+
+# Scripts SQL para extrair infomações do banco de dados SQLITE via ODBC no PowerBI
+
+# SELECIONE TUDO DA TABELA TB_VENDAS
+SELECT * FROM TB_VENDAS;
+
+
+SELECT ID_VENDA,
+       Produto,
+       Estado,
+       País,
+       Dia,
+
+FROM TB_VENDAS;
